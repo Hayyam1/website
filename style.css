@@ -1,0 +1,44 @@
+h1{color: white;} 
+
+.website{
+
+background-color: plum;
+display : flex; 
+justify-content: space-between;
+}
+
+.text1{
+
+display : flex;
+justify-content:space-evenly;
+flex-wrap: wrap;
+}
+
+.socials{
+
+display : flex;
+justify-content: flex-end;
+}
+
+body{background-color : #f090a0 ;}
+
+p,h2{
+color:white;
+text-align: center;
+
+}
+
+h1{padding: 30px;}
+.body1 a{
+
+margin-left: 30px;}
+
+a:link{color: skyblue;}
+a:visited{color: skyblue;}
+
+
+.styling p{opacity: 0;position: absolute; top: 50%; left: 50%;transform: translate(-50%, -50%);} 
+.styling:hover p{opacity: 1;}
+.styling {position: relative;}
+.styling img{opacity: 1;}
+.styling:hover img{opacity: 0.5;}
